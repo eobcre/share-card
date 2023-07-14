@@ -35,6 +35,10 @@
   color: var(--color-gray);
 }
 
+h3 {
+  padding: 3rem 0 2rem 3rem;
+}
+
 .search-container {
   display: grid;
   place-items: center;
