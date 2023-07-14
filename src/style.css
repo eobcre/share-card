@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #f8fafc;
+  --card-bg-color: #ffffff;
+}
+
+#app {
+  display: grid;
+  place-items: center;
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+
+.card-container {
+  background-color: var(--card-bg-color);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 480px;
+  height: 280px;
+}
