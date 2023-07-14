@@ -1,6 +1,7 @@
 :root {
   --bg-color: #f8fafc;
   --card-bg-color: #ffffff;
+  --color-lightwhite: #f8fafc;
   --color-lightgray: #d3d3d3;
   --color-gray: #808080;
 }
@@ -46,6 +47,7 @@ h3 {
 }
 
 .search-container input {
+  background-color: var(--color-lightwhite);
   border: 1px solid var(--color-lightgray);
   border-radius: 30px;
   outline: none;
@@ -69,13 +71,20 @@ h3 {
 
 .box-container {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   text-transform: none;
 }
 
 .box-container .box {
-  border: 1px solid;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid var(--color-lightgray);
   border-radius: 10px;
+  padding: 1.2rem;
   width: 170px;
   height: 70px;
+}
+
+.box-container .name {
+  font-size: 12px;
 }
