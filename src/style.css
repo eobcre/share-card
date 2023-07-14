@@ -24,3 +24,16 @@
   width: 480px;
   height: 280px;
 }
+
+.search {
+  display: grid;
+  place-items: center;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  outline: none;
+  padding: 0.8rem;
+  width: 20rem;
+}
