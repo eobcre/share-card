@@ -36,7 +36,7 @@
 }
 
 h3 {
-  padding: 3rem 0 2rem 3rem;
+  padding: 2.5rem 0 2rem 3rem;
 }
 
 .search-container {
@@ -50,10 +50,32 @@ h3 {
   border-radius: 30px;
   outline: none;
   padding: 1rem 1rem 1rem 3.5rem;
-  width: 20rem;
+  width: 24rem;
 }
 
 .search-container .search-icon {
   position: absolute;
-  left: 6.5rem;
+  left: 4.5rem;
+}
+
+.suggested-container {
+  text-transform: uppercase;
+  padding: 1.5rem 1rem 1rem 3rem;
+}
+
+.suggested-container h5 {
+  padding-bottom: 0.4rem;
+}
+
+.box-container {
+  display: flex;
+  gap: 2rem;
+  text-transform: none;
+}
+
+.box-container .box {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 170px;
+  height: 70px;
 }
