@@ -11,12 +11,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script type="module" src="/src/main.ts" defer></script>
     <title>Share Card</title>
   </head>
   <body>
     <div id="app">
       <div class="card-container">
-        <i class="close-icon fa-solid fa-x"></i>
+        <button id="button">
+          <i class="close-icon fa-solid fa-x fa-2x"></i>
+        </button>
         <h3>Share document with your friend</h3>
         <div class="search-container">
           <input type="text" placeholder="Search by name or email" />
@@ -26,14 +29,24 @@
           <h5>Suggested</h5>
           <div class="box-container">
             <div class="box">
-              <img src="/src/assets/logo.png" alt="Logo" width="30" />
+              <img
+                src="/src/assets/logo.png"
+                alt="Logo"
+                width="30"
+                height="30"
+              />
               <div class="box-detail">
                 <h5>Rina Adams</h5>
                 <p class="name">@rinaadams</p>
               </div>
             </div>
             <div class="box">
-              <img src="/src/assets/logo.png" alt="Logo" width="30" />
+              <img
+                src="/src/assets/logo.png"
+                alt="Logo"
+                width="30"
+                height="30"
+              />
               <div class="box-detail">
                 <h5>Dena Grey</h5>
                 <p class="name">@denaG</p>
@@ -43,6 +56,5 @@
         </div>
       </div>
     </div>
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
