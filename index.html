@@ -4,13 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
     <script type="module" src="/src/main.ts" defer></script>
     <title>Share Card</title>
   </head>
@@ -18,35 +12,45 @@
     <div id="app">
       <div class="card-container">
         <button id="button">
-          <i class="close-icon fa-solid fa-x fa-2x"></i>
+          <iconify-icon
+            icon="ion:close-outline"
+            width="40"
+            height="40"
+            class="close-icon"
+          ></iconify-icon>
         </button>
         <h3>Share document with your friend</h3>
         <div class="search-container">
           <input type="text" placeholder="Search by name or email" />
-          <i class="search-icon fas fa-search"></i>
+          <iconify-icon
+            icon="ant-design:search-outlined"
+            width="30"
+            height="30"
+            class="search-icon"
+          ></iconify-icon>
         </div>
         <div class="suggested-container">
           <h5>Suggested</h5>
           <div class="box-container">
             <div class="box">
-              <img
-                src="/src/assets/logo.png"
-                alt="Logo"
+              <iconify-icon
+                icon="ph:user"
                 width="30"
                 height="30"
-              />
+                style="color: #808080"
+              ></iconify-icon>
               <div class="box-detail">
                 <h5>Rina Adams</h5>
                 <p class="name">@rinaadams</p>
               </div>
             </div>
             <div class="box">
-              <img
-                src="/src/assets/logo.png"
-                alt="Logo"
+              <iconify-icon
+                icon="ph:user"
                 width="30"
                 height="30"
-              />
+                style="color: #808080"
+              ></iconify-icon>
               <div class="box-detail">
                 <h5>Dena Grey</h5>
                 <p class="name">@denaG</p>
